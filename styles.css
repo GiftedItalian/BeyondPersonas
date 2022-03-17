@@ -1,0 +1,314 @@
+/* CSS reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    background-color: black;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-shadow: 0 0 3px rgba(1, 1, 27, 1), 0 0 5px rgba(1, 1, 27, 1);
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vw;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    text-shadow: 0 0 3px rgba(1, 1, 27, 1), 0 0 5px rgba(1, 1, 27, 1);
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 90px;
+    }
+}
+
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 0 0 3px rgba(1, 1, 27, 1), 0 0 5px rgba(1, 1, 27, 1);
+}
+
+
+h3 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 0 0 3px rgba(1, 1, 27, 1), 0 0 5px rgba(1, 1, 27, 1);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Hompage */
+
+#homepage {
+    height: auto;
+    border-bottom: 1px solid;
+    border-bottom-color: white;
+}
+
+.bg-dark-blue {
+    background: rgba(1, 1, 27, 0.1);
+    color: white;
+}
+
+.navbar {
+    border-bottom: 1px solid;
+    border-bottom-color: white;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 25px 3%;
+}
+
+.nav-item {
+    padding: 0.3vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: yellow;
+}
+
+.nav-item:last-child {
+    padding-right: 2vw;
+}
+
+.hero-video {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+    object-fit:cover;
+}
+
+.homepage-header-text {
+    padding-left: 3%;
+    padding-top: 250px;
+    padding-bottom: 40px;
+}
+
+.homepage-header-text p {
+    font-size: 30px;
+}
+
+.homepage-header-text-author {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.homepage-header-text-motto {
+    position: relative;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .homepage-header-text p {
+        font-size: 20px;
+    }
+}
+
+.homepage-auction {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.homepage-auction .homepage-auction-thumbnail {
+    position: relative;
+    margin-left: 50px;
+    bottom: 50px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.homepage-auction-text {
+    display: inline-block;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+
+.homepage-auction .homepage-auction-link {
+    display: inline;
+}
+
+.homepage-auction .homepage-auction-link-logo {
+    height: 40px;
+    width: 55px;
+}
+
+.homepage-auction p {
+    font-size: 20px;
+}
+
+.homepage-auction .homepage-auction-link:hover {
+    color: yellow;
+}
+
+
+
+@media screen and (max-width: 687px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    .homepage-auction .homepage-auction-thumbnail {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+
+    .homepage-auction-text h3 {
+        font-size: 90%;
+    }
+
+    .homepage-auction-text p {
+        font-size: 60%;
+    }
+
+    .homepage-auction .homepage-auction-link-logo {
+        height: 25px;
+        width: 30px;
+    }
+}
+
+
+/* ABOUT SECTION */
+#about {
+    background-color: rgba(1, 1, 27, 1);
+    text-align: center;
+    border-bottom: 1px solid;
+    border-bottom-color: white;
+}
+
+.about-content {
+    padding: 100px 20%;
+}
+
+.about-content h2 {
+    padding-bottom: 30px;
+}
+
+/* Personas */
+#personas {
+    background-color: rgba(1, 1, 27, 1);
+    border-bottom: 1px solid;
+    border-bottom-color: white;
+}
+
+.personas-header {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-bottom: 1px solid;
+    border-bottom-color: white;
+}
+
+.personas-content-panel {
+    padding: 30px;
+}
+
+.personas-content-panel h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.personas-content-panel img {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.personas-marketplace {
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    text-align: right;
+}
+
+.personas-marketplace h2 {
+    display: inline;
+}
+
+.personas-marketplace h2:hover {
+    color: yellow;
+}
+
+.personas-marketplace img {
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.gradient {
+    mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 19) 0%, rgba(0, 0, 0, 0.65) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 0.007) 100%);
+}
+
+/* Footer */
+#footer {
+    background-color: rgba(1, 1, 27, 1);
+    text-align: center;
+}
+
+#footer p {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
