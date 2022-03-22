@@ -243,43 +243,6 @@ a {
     padding-bottom: 30px;
 }
 
-/* RARITY */
-
-#rarity {
-    background-color: rgba(1, 1, 27, 1);
-    text-align: center;
-    border-bottom: 1px solid;
-    border-bottom-color: white;
-}
-
-#rarity h2 {
-    padding-bottom: 30px;
-}
-
-.rarity-content  {
-    padding: 100px 10%
-}
-
-.rarity-content .container-fluid .row .col-lg{
-    padding: 10px;
-}
-
-.basic-persona-header{
-    color:gray
-}
-
-.advanced-persona-header {
-    color: lightgreen;
-}
-
-.hybrid-persona-header {
-    color:lightblue;
-}
-
-.supersona-header {
-    color:blue;
-}
-
 /* Personas */
 #personas {
     background-color: rgba(1, 1, 27, 1);
